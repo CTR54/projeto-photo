@@ -63,7 +63,7 @@ nav a:hover{
 main{
     padding: 20px;
     margin: auto;
-    width: 50vw;
+    width: 65vw;
     background-color: white;
    
 }
@@ -73,6 +73,7 @@ main h1{
     padding: 15px;
 }
 main p{
+    overflow-wrap:normal;
     text-align: justify;
     padding-bottom: 20px;
     font-family: var(--fonte2);
