@@ -64,6 +64,9 @@ nav a:hover{
 main{
     padding: 20px;
     margin: auto;
+    min-width: 317px;
+    max-width: 1000px;
+
     height: 100%;
     width: 50vw;
     background-color: white;
@@ -83,7 +86,7 @@ main  h1{
     margin: -20px 0px 10px -12px;
    border-radius: 10px 10px 5px 5px;
 }
-main > p{
+main  p{
     text-align: justify;
     padding-bottom: 20px;
     font-family: var(--fonte2);
